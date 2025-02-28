@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>369 Electric - Electrical Services</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      overflow: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .testimonial {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .booking-form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    .booking-form input,
+    .booking-form textarea,
+    .booking-form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .booking-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .booking-form button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>369 Electric</h1>
+    <p>Your trusted electrical service provider</p>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#booking">Book Appointment</a>
+  </nav>
+  
+  <!-- Main Container -->
+  <div class="container">
+    
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to 369 Electric</h2>
+      <p>
+        With over a decade of experience in electrical and lighting solutions, we are dedicated to delivering meticulous and code-compliant services. Our background in architecture from Morgan State University enhances our ability to blend functionality with aesthetics, ensuring your home or business receives top-quality enhancements.
+      </p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        At 369 Electric, electrical work runs in our veins. As a third-generation electrician, the passion for this trade has been passed down through our family. We are committed to completing tasks correctly the first time, providing creative and efficient solutions that add value to your property.
+      </p>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>Lighting Installation:</strong> Transform your spaces with expertly installed lighting fixtures.</li>
+        <li><strong>Circuit Breaker Installation and Repair:</strong> Ensure your electrical systems are safe and reliable with professional circuit breaker services.</li>
+        <li><strong>Outlets Installation and Repair:</strong> Get professional installation and repair services for all your electrical outlets.</li>
+        <li><strong>Appliance Installation:</strong> Professional setup for your microwaves, dishwashers, and more.</li>
+        <li><strong>Wiring Installations:</strong> Comprehensive wiring solutions for new constructions and renovations.</li>
+        <li><strong>Electrical Repairs:</strong> Reliable troubleshooting and repair services to keep your systems running smoothly.</li>
+      </ul>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <p>"Excellent job with the installation of light fixtures. My home has never looked better!"</p>
+        <p><strong>- Tiffany D.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>"Professional, punctual, and extremely knowledgeable. I highly recommend 369 Electric for any electrical work."</p>
+        <p><strong>- Satisfied Customer</strong></p>
+      </div>
+      <!-- You can add more testimonials as needed -->
+    </section>
+    
+    <!-- Booking Section -->
+    <section id="booking">
+      <h2>Book an Appointment</h2>
+      <form class="booking-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" placeholder="Your email address" required />
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+        
+        <label for="appointment-date">Preferred Date:</label>
+        <input type="date" id="appointment-date" name="appointment-date" required />
+        
+        <label for="appointment-time">Preferred Time:</label>
+        <input type="time" id="appointment-time" name="appointment-time" required />
+        
+        <label for="message">Additional Details:</label>
+        <textarea id="message" name="message" placeholder="Any additional information" rows="4"></textarea>
+        
+        <button type="submit">Request Booking</button>
+      </form>
+    </section>
+    
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 369 Electric. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
